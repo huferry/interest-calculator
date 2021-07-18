@@ -1,0 +1,17 @@
+{
+  "name": "interest-calculator",
+  "version": "1.0.0",
+  "description": "Calculates compound interest.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w src/*.ts --outDir ./js",
+    "build": "tsc src/*.ts --outDir ./js",
+    "test": "tsc src/*.ts --outDir ./js; jest"
+  },
+  "keywords": [],
+  "author": "F. Utomo (@huferry)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
